@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "723432431453",
+    "project_id": "lumos-e4859",
+    "storage_bucket": "lumos-e4859.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723432431453:android:3de201c6bcff68087692b4",
+        "android_client_info": {
+          "package_name": "com.example.lumos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723432431453-rmelqbljilu429rhn601k3gj7ufb9s9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1pkU_Dcb_H3EKZxl2EXRzeLFc2I15REw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723432431453-rmelqbljilu429rhn601k3gj7ufb9s9a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

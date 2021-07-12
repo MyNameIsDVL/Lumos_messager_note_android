@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".note.AddNote">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/register_bk_color">
+
+            <EditText
+                android:id="@+id/addNoteTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/transparent"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@android:string/untitled"
+                android:textColor="#fff"
+                android:textColorHint="#FFFFFF"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_add_note" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="10dp"
+        app:backgroundTint="@color/register_bk_color"
+        app:maxImageSize="30dp"
+        app:srcCompat="@mipmap/ic_plus_add_icon_foreground" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:onClick="toHomePage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_margin="10dp"
+        app:backgroundTint="@color/whiteTextColor"
+        app:maxImageSize="30dp"
+        app:srcCompat="@mipmap/ic_back_foreground" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
